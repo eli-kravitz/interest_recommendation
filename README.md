@@ -2,7 +2,9 @@
 
 This repo contains code to learn and infer human interest in infrared target tracks across the globe. The model that was used to learn interest is very similar to a vanilla Bayesian logistic regression, but with the added complexity of dependencies between input variables and partially observable input variables. The model is shown below:
 
-<img src="https://github.com/eli-kravitz/interest_recommendation/blob/main/GM_theta.png" width="100">
+<p align="center">
+  <img src="https://github.com/eli-kravitz/interest_recommendation/blob/main/GM_theta.png" width="500">
+</p>
 
 The main backend code exists in `backend/algorithms/sandbox_ek/interesting_track_GM2/camp_interest_classifier.py` and `backend/algorithms/sandbox_ek/interesting_track_GM2/camp_helper_functions.py`, with the other files mainly existing for test purposes.
 
